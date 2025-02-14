@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: url('/background-dark.svg');
+  --foreground: url('/background-dark.svg');
+  --bg-svg: url('/background.svg'); 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: url('/background-dark.svg');
+    --foreground: url('/background-dark.svg');
+    --bg-svg: url('/background-dark.svg');
+  }
+}
+
+.font-roboto {
+  font-family: var(--font-roboto), sans-serif;
+}
+
+.font-roadrage {
+  font-family: var(--font-road-rage), sans-serif;
+}
+
+.font-alatsi {
+  font-family: var(--font-alatsi), sans-serif;
+}
+
+@font-face {
+  font-family: 'Jeju Myeongjo';
+  src: url('/fonts/JejuMyeongjo-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--bg-svg), var(--background);
+  background-size: cover; /* Adjust as needed */
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
