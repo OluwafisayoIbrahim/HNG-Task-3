@@ -232,7 +232,8 @@ const AboutPage = () => {
             </h2>
   
             <div className="flex justify-center items-center gap-8 p-4 md:p-12 border border-[#0E464F] rounded-2xl">
-              <button className="px-6 py-3 border border-[#24A0B5] w-[215px] h-[48px] rounded-lg text-[#24A0B5] hover:bg-inherit hover:text-white transition-colors">
+              <button onClick={() => window.location.href = "https://github.com/OluwafisayoIbrahim/HNG-Task-3"}
+ className="px-6 py-3 border border-[#24A0B5] w-[215px] h-[48px] rounded-lg text-[#24A0B5] hover:bg-inherit hover:text-white transition-colors">
                 Design File
               </button>
               <button className="px-6 py-3 bg-[#24A0B5] rounded-lg w-[215px] h-[48px] text-white hover:bg-[#1b7d8f] transition-colors">
