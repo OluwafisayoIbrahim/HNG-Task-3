@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --background: url('/background-dark.svg');
-  --foreground: url('/background-dark.svg');
+  --background: url('/background.svg');
+  --foreground: url('/background.svg');
   --bg-svg: url('/background.svg'); 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: url('/background-dark.svg');
-    --foreground: url('/background-dark.svg');
-    --bg-svg: url('/background-dark.svg');
+    --background: url('/background.svg');
+    --foreground: url('/background.svg');
+    --bg-svg: url('/background.svg');
   }
 }
 

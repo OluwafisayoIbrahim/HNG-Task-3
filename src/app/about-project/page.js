@@ -1,8 +1,13 @@
+"use client"
 import Button from "@/components/ui/Button";
 import Logo from "@/components/Logo";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 const AboutPage = () => {
+
+  const router = useRouter();
+
     return (
         <main className="bg-cover bg-center bg-no-repeat min-h-screen p-4">
       <div className="w-full max-w-7xl mx-auto px-4 relative z-20">
@@ -236,7 +241,7 @@ const AboutPage = () => {
  className="px-6 py-3 border border-[#24A0B5] w-[215px] h-[48px] rounded-lg text-[#24A0B5] hover:bg-inherit hover:text-white transition-colors">
                 Design File
               </button>
-              <button className="px-6 py-3 bg-[#24A0B5] rounded-lg w-[215px] h-[48px] text-white hover:bg-[#1b7d8f] transition-colors">
+              <button onClick={() => router.push("https://github.com/OluwafisayoIbrahim/HNG-Task-3")}  className="px-6 py-3 bg-[#24A0B5] rounded-lg w-[215px] h-[48px] text-white hover:bg-[#1b7d8f] transition-colors">
                 Github code
               </button>
             </div>

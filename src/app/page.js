@@ -271,7 +271,7 @@ const Home = () => {
         xl:flex-row xl:w-[359px] xl:h-[24px] xl:gap-4
       "
                 >
-                  <p className="text-[#FAFAFA] font-roboto font-normal text-[16px] leading-[150%] xs:w-[134px] xs:h-[24px] xl:w-[134px] xl:h-[24px]">
+                  <p className="text-[#FAFAFA] font-roboto font-normal text-[16px] leading-[150%] xs:w-[181px] xs:text-center xs:h-[24px] xl:w-[134px] xl:h-[24px]">
                     📍 [Event Location]
                   </p>
                   <p className="text-[#FAFAFA] font-roboto font-normal text-[16px] leading-[150%] xs:hidden xl:block xl:w-[12px] xl:h-[24px]">
