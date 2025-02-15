@@ -170,7 +170,7 @@ const TicketReady = () => {
               </button>
             </div>
           </div>
-          <div ref={ticketRef} className="relative z-30 xl:-mt-[800px] xs:-mt-[955px]">
+          <div ref={ticketRef} className="relative z-30 xl:-mt-[800px] xs:-mt-[825px]">
             <Ticket />
           </div>
         </div>
